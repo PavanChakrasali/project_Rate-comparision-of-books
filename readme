@@ -1,0 +1,23 @@
+purpose:
+Extracting the price and details of books according to its INTERNATIONAL STANDARD BOOK NUMBER(ISBN) on the different e-commerce sites.
+
+Technologies used:
+python(back-end)
+Tkinter(front-end/GUI)
+
+
+Domain Used:
+Flipkart, Sapana,bookchor,bookswagon.
+
+Using python package called 'beautiful soup' we can extract the data from HTML format(this file has ISBN).
+project was divided into 4 parts:
+1.Document Load
+2.Parsing
+3.Extraction
+4.Transformation
+The data is extracted in raw HTML format, which must be carefully parsed and reduce the noise from the raw data.
+The initial step is to find the URL that you want to scrap. Here we are extracting book details from the flipkart. The URL of this page is https://www.flipkart.com/indian-woman/p/itmdwuhbkmgugwjv?pid='+id.
+Here id is requested from HTML format and it will find in the website.
+once the item is found it will get back all related data and display as output.else it will print"not available"
+
+This procedure is followed in different domain aswell.
